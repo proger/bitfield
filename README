@@ -1,0 +1,9 @@
+bitfield.py: a python tool which helps thinking in binary:
+
+In [4]: bitfield((1 << 2 | 0x70 | 1<<16-1, 16))
+Out[4]:
+
+           12          08          04          00
+ 1  0  0  0  0  0  0  0  0  1  1  1  0  1  0  0
+
+it's already 2-3 yrs old so may need some improvement.
